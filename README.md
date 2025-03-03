@@ -5,7 +5,9 @@
 </div>
 
 > **Disclaimer**: Repository ini dibuat sebagai bagian dari proses pembelajaran. Informasi yang tersedia hanya sebagai referensi dan mungkin tidak selalu akurat atau terkini. Jika ini membantu Anda, saya sangat senang! 🚀
-
+</br>
+</br>
+</br>
 
 
 For collaborations, discussions, or just to say hello, feel free to drop me a message!😉.
@@ -15,9 +17,6 @@ For collaborations, discussions, or just to say hello, feel free to drop me a me
 </a>
 <a href="https://www.linkedin.com/in/reisyajunita/">
   <img align="left" alt="Linkedin" width="150" hight="100" src="https://raw.githubusercontent.com/AbhishekMaira10/AbhishekMaira10/master/Resources/svg/linkedin.svg" />
-</a>
-<a href="mailto:reisyajunita@gmail.com">
-  <img align="left" alt="Gmail" width="130" hight="100" src="https://raw.githubusercontent.com/AbhishekMaira10/AbhishekMaira10/master/Resources/svg/gmail.svg" />
 </p>
 </br>
 </br>
