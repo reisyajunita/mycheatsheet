@@ -25,6 +25,13 @@ P.s: Kalo isinya ga ada alias kosong berarti itu belum ada file .py jadi convert
 - Kalo masih error, contohnya ini: Error ini terjadi karena pipreqs mengalami masalah dengan encoding saat membaca file di folder proyek. Biasanya ini karena ada karakter yang tidak bisa diproses oleh encoding default (cp1252). Caranya gini:
 (pipreqs . --force --encoding=utf8)
 
+# Cek Interpreter di VS Code
+Jika masalah masih ada, coba pastikan VS Code menggunakan interpreter yang benar:
+
+1. Tekan Ctrl + Shift + P
+2. Ketik Python: Select Interpreter
+3. Pilih interpreter dari environment yang kamu buat (env/.../python.exe).
+4. Restart VS Code.
 
 # Menginstall package requirements
 caranya: pip install -r requirements.txt
