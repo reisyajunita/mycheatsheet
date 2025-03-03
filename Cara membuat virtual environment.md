@@ -1,7 +1,7 @@
 # Cara membuat virtual environment
 1. Buka folder yang mau ditambahkan venvnya, contoh cd /d/Users/Reisya/Documents/environment
 2. Kalau udah masukan code ini ke terminal (python -m venv env)
-3. Lalu aktifkan venv-nya, kalo langsung di vs code cek dia pakai git bash atau apa. disini re pake git bash, ini codenya (source env_bike_sharing/Scripts/activate)
+3. Lalu aktifkan venv-nya, kalo langsung di vs code cek dia pakai git bash atau apa. disini aku pake git bash, ini codenya (source env_bike_sharing/Scripts/activate)
 
 
 Kalo misalnya env-nya bekas yang sebelumnya trs bingung mau pindah ke venv baru caranya gini, Jika masalah masih ada, coba pastikan VS Code menggunakan interpreter yang benar:
@@ -23,9 +23,8 @@ P.s: Kalo isinya ga ada alias kosong berarti itu belum ada file .py jadi convert
 - Caranya gini (jupyter nbconvert --to script nama_file.ipynb)
 
 - Kalo masih error, contohnya ini: Error ini terjadi karena pipreqs mengalami masalah dengan encoding saat membaca file di folder proyek. Biasanya ini karena ada karakter yang tidak bisa diproses oleh encoding default (cp1252). Caranya gini:
-(p)
+(pipreqs . --force --encoding=utf8)
 
-- Baru deh langkah terakhir gini (pipreqs . --force)
 
 # Menginstall package requirements
 caranya: pip install -r requirements.txt
