@@ -1,0 +1,16 @@
+Cara merubah pyenv python version
+1. Python Global
+- buka cmd atau powershell (biasanya cmd)
+- install versi python yang dibutuhin (kl udah ada gausah langsung ke next step), ketik:
+	`pyenv install 3.10.11`
+- ketik `pyenv global 3.10.11`
+- ketik `python --version` (ngecek udah berubah apa blm)
+
+2. Python Local
+- buka terminal di folder yang mau diganti misal
+	cd D:\Users\Reisya Junita\Documents\Laskar Ai\Materi\Membangun Sistem Machine Learning\Latihan
+- install versi python yang dibutuhin (kl udah ada gausah langsung ke next step), ketik:
+	`pyenv install 3.12.7`
+- ketik `pyenv local 3.12.7`
+- ketik `python --version`
+
