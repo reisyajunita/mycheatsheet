@@ -5,3 +5,7 @@ CARA GIT BASH KE REPO GITHUB dalam bentuk folder
 - git add .
 - git commit -m "bebas diisi apa sesuaiin aja" (copy key, commit message)
 - git push -u origin main(nama branch)
+
+
+hapus git init
+rm -rf .git
