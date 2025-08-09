@@ -10,15 +10,21 @@
 ## hapus git init
 rm -rf .git
 
-## Cara lain
-- git init (Inisialisasi repositori)
-- git add . (Pilih file yang mau disimpan)
-- git commit -m "Pesan commit" (Simpan file tersebut dengan sebuah pesan)
-- git branch -M main (Ubah nama branch)
-- git remote add origin <URL> (Hubungkan ke GitHub)
-- git push -u origin main (Kirim ke GitHub)
-
 ## Cara biar folder env ga ikut ke bash
 - buat file .gitignore
 - isi filenya dengan nama folder env, misal env_ml
 - save deh, nanti pas ke bash file .gitignorenya juga ke up tapi folder env_ml nya engga.
+
+## Cara lain
+### First bash
+- git init
+- git remote add origin [link repo]
+- git add .
+- git commit -m "first commit"
+- git branch -M main (misal nama branchnya beda [master] jadi ganti dulu ke main)
+- git push -u origin main
+
+### Bash ketika upload file baru
+- git add .
+- git commit -m "Memperbaiki bug di file X"
+- git push
