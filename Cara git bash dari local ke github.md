@@ -17,3 +17,8 @@ rm -rf .git
 - git branch -M main (Ubah nama branch)
 - git remote add origin <URL> (Hubungkan ke GitHub)
 - git push -u origin main (Kirim ke GitHub)
+
+## Cara biar folder env ga ikut ke bash
+- buat file .gitignore
+- isi filenya dengan nama folder env, misal env_ml
+- save deh, nanti pas ke bash file .gitignorenya juga ke up tapi folder env_ml nya engga.
