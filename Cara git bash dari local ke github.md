@@ -9,3 +9,11 @@
 
 ## hapus git init
 rm -rf .git
+
+## Cara lain
+- git init (Inisialisasi repositori)
+- git add . (Pilih file yang mau disimpan)
+- git commit -m "Pesan commit" (Simpan file tersebut dengan sebuah pesan)
+- git branch -M main (Ubah nama branch)
+- git remote add origin <URL> (Hubungkan ke GitHub)
+- git push -u origin main (Kirim ke GitHub)
