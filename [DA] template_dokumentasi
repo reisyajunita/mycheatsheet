@@ -1,0 +1,129 @@
+# Struktur Folder Proyek Data Analysis
+
+📁 nama_proyek/  
+│  
+├── 📄 README.md                ← dokumentasi utama proyek  
+│  
+├── 📁 data/  
+│   ├── raw/                    ← data mentah (langsung dari sumber)
+│   ├── processed/              ← data setelah dibersihkan / join
+│   └── external/               ← data tambahan (misal: referensi, metadata)
+│
+├── 📁 sql/                     ← 💾 semua query SQL disimpan di sini
+│   ├── 01_extraction.sql       ← query untuk ambil data dari tabel utama
+│   ├── 02_aggregation.sql      ← query untuk agregasi (group, join, dsb)
+│   └── 03_analysis_query.sql   ← query eksploratif (misal per segmen pekerjaan)
+│
+├── 📁 notebooks/               ← file Jupyter / eksplorasi Python
+│   ├── 01_data_understanding.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_eda.ipynb
+│   ├── 04_analysis.ipynb
+│   └── 05_visualization.ipynb
+│
+├── 📁 tableau/
+│   ├── dashboard.twbx              ← file Tableau yang kamu buat
+│   └── screenshot_dashboard.png    ← preview gambar untuk README
+│
+├── 📁 scripts/                 ← skrip Python/SQL untuk automasi
+│   ├── data_cleaning.py
+│   └── analysis_utils.py
+│
+├── 📁 reports/                 ← hasil akhir analisis
+│   ├── charts/                 ← visualisasi (.png/.jpg)
+│   └── summary/                ← ringkasan laporan (.pdf / .pptx)
+│
+└── 📁 assets/                  ← gambar untuk README atau laporan (logo, banner)
+
+
+# README (Dokumentasi Analisis)
+# 📊 Judul Proyek Data Analysis  
+### Insight dan Rekomendasi untuk Pengambilan Keputusan  
+*(Nama Proyek: isi sesuai domain)*
+
+---
+
+## 📌 Deskripsi Singkat
+(Tulis latar belakang singkat proyek dan alasan kamu memilih topik ini. Jelaskan juga tujuan utama dari analisisnya — apakah untuk memahami perilaku pelanggan, meningkatkan penjualan, atau mengoptimalkan proses bisnis.)
+
+---
+
+## 🗂️ Dataset
+**Sumber data:** (tulis sumber data: Kaggle, internal, atau open data)
+
+**Deskripsi singkat:**
+- Jumlah data:  
+- Jumlah kolom:  
+- Variabel utama:  
+- Keterangan tambahan:  
+
+---
+
+## 🎯 Tujuan dan Pertanyaan Bisnis
+(Tuliskan 2–4 pertanyaan bisnis atau analisis utama yang ingin kamu jawab.  
+Contoh:)
+1. Apa faktor utama yang memengaruhi kepuasan pelanggan?  
+2. Produk atau kategori mana yang paling berkontribusi terhadap penjualan?  
+3. Apakah ada pola tertentu berdasarkan demografi pelanggan?  
+
+---
+
+## 🧭 Metodologi Analisis
+Langkah-langkah analisis dilakukan melalui tahapan berikut:
+
+1. **Data Understanding**  
+   - Eksplorasi struktur data dan hubungan antarvariabel.  
+   - Analisis awal terhadap distribusi data.
+
+2. **Data Cleaning & Preparation**  
+   - Penanganan missing values dan duplikasi.  
+   - Pembersihan dan transformasi data agar siap untuk analisis.
+
+3. **Exploratory Data Analysis (EDA)**  
+   - Visualisasi distribusi data.  
+   - Analisis hubungan antarvariabel.  
+   - Identifikasi pola dan tren utama.
+
+4. **Analisis dan Insight**  
+   - Jawaban terhadap pertanyaan bisnis.  
+   - Interpretasi hasil dengan konteks bisnis.
+
+---
+
+## 📊 Hasil dan Visualisasi Utama
+(Masukkan grafik utama, tabel ringkasan, atau metrik penting yang mendukung insight.)
+
+---
+
+## 💡 Insight Utama
+(Simpulkan 3–5 temuan paling relevan dari analisis.  
+Contoh:)
+- Pelanggan muda lebih sensitif terhadap harga dibanding pelanggan dewasa.  
+- Brand A unggul dalam rating performa, tetapi kalah di aspek daya tahan baterai.  
+
+---
+
+## 🧩 Rekomendasi Bisnis
+1. (Rekomendasi berdasarkan insight #1)  
+2. (Rekomendasi berdasarkan insight #2)  
+3. (Rekomendasi tambahan untuk strategi atau operasional)  
+
+---
+
+## 🛠️ Tools dan Teknologi
+- **Python:** pandas, numpy, matplotlib, seaborn  
+- **SQL:** untuk eksplorasi dan agregasi data  
+- **Jupyter Notebook / VS Code**  
+- **GitHub:** dokumentasi dan version control  
+
+---
+
+## 👩‍💻 Kontributor
+**Nama:**  
+**Peran:** Data Analyst  
+**Kontak:**  
+
+---
+
+## 🏁 Kesimpulan
+(Simpulkan hasil analisis secara keseluruhan dan jelaskan implikasi bisnisnya.)
